@@ -1,0 +1,22 @@
+{
+  "name": "invrs-ui-tests",
+  "version": "0.0.1",
+  "description": "Automated ui tests for INVRS",
+  "scripts": {
+    // "test": "npm run single && npm run parallel",
+    // "single": "./node_modules/.bin/mocha specs/single_test.js conf/single.conf.js",
+    // "parallel": "./node_modules/.bin/mocha specs/parallel_test.js conf/parallel.conf.js --timeout=100000",
+    "login": "./node_modules/.bin/mocha specs/login.spec.js"
+  },
+  "keywords": [
+    "mocha",
+    "LambdaTest",
+    "selenium",
+    "examples"
+  ],
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mocha": "^9.1.3",
+    "selenium-webdriver": "^3.6.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "invrs-ui-tests",
+  "version": "0.0.1",
+  "description": "Automated ui tests for INVRS",
+  "scripts": {
+    "smoke": "./node_modules/.bin/mocha specs/smokeSuite ../../conf/parallel.conf.js --reporter my-reporter.js",
+    "test": "./node_modules/.bin/mocha specs/singleTest.js ../../conf/single.conf.js"
+  },
+  "keywords": [
+    "mocha",
+    "LambdaTest",
+    "selenium",
+    "examples"
+  ],
+  "dependencies": {
+    "dotenv": "16.0.0",
+    "log4js": "6.6.1",
+    "selenium-webdriver": "4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "mocha": "10.0.0"
+  }
+}
